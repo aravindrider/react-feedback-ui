@@ -1,0 +1,22 @@
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.questionbtn {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  margin: 10px 0 !important;
+  float: right;
+}
+
+.error {
+  background-color: #272b30;
+  color: red;
+}
+
+.error {
+  color: red;
+
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
